@@ -15,7 +15,7 @@ A criação de usuario administrador esta na *UserSeeder.php* dentro de: databas
 
 1. Clone o repositorio:
    ```bash
-   git clone https://github.com/geovanykam190/library-api-laravel.git
+   git clone https://github.com/geovanykam190/app-product.git
     ```
 
 2. Va até o diretorio da aplicação:
