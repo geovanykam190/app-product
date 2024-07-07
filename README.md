@@ -5,7 +5,7 @@ Esse projeto tem como objetivo, criar um sistema (CRUD) de cadastro de produtos,
 *Necessário habilitar algumas extensões no php.ini para realizar a correta instalação da aplicação.
 
 ## Conteúdos
-- [Instalação](#installation)
+- [Instalação](#Instalação)
 
 ## Observações:
 A criação de usuario administrador esta na ***UserSeeder.php*** dentro de: database/seeders. Caso queira iniciar o sistema com outro usuario ADMINISTRADOR, por favor realizar as alterações de usuario e senha deste arquivo!
