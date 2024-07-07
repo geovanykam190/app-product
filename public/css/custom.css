@@ -1,0 +1,292 @@
+
+/**
+* Colors Btns Swal Alerts
+*/
+.swal-button--cancel{
+    background-color: #dc3545;
+    color: white;
+}
+.swal-button--confirm{
+    background-color: #28a745;
+    color: white;
+}
+
+.swal-button--cancel:hover{
+    background-color: #c82333 !important;
+}
+.swal-button--confirm:hover{
+    background-color: #218838 !important;
+}
+
+/*
+* MENU 
+*/
+.brand-link .brand-image{
+    float: none !important;
+}
+
+.main-sidebar > a {
+    text-align: center;
+}
+
+.content{
+    padding: 2rem !important;
+}
+
+.icons-actions{
+    font-size: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.max-wid-200{
+    width: 200px;
+}
+
+.card-inside{
+    padding: 2rem;
+}
+
+.m-2{
+    margin: 2rem;
+}
+
+.mheig-500{
+    min-height: 500px;
+}
+
+.inBorder{
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 210px;
+    padding-left: 17px;
+    font-size: 18px;
+}
+
+.inBorder2{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 230px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+#loading{
+    position: absolute;
+    top: -100px;
+    left: -290px;
+    background-color: rgba(0,0,0,0.8);
+    width: 130%;
+    height: 150%;
+    z-index: 999999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-grow {
+    width: 5rem !important;
+    height: 5rem !important;
+}
+
+.textLinkUrl{
+    position: fixed;
+    right: -3000px;
+}
+
+.mlr-20{
+    margin: 0 20px;
+}
+
+.fsInfo{
+    font-size: 18px !important;
+    font-weight: 800 !important;
+}
+
+.fsChangeAcc{
+    color: red;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.fsChangeAcc:hover{
+    color: black;
+}
+
+.nav-tabs .nav-link{
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    border-top-right-radius: 2rem !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #495057 !important;
+    background-color: #e9ecef !important;
+}
+
+.btninfosParticipants{
+    text-align: center;
+}
+
+.btninfosParticipants i{
+    font-size: 1.5rem;
+    color: green;
+    cursor: pointer;
+}
+
+#modalDetailsParticip{
+    min-width: 90% !important;
+}
+
+.contant-generic-web{
+    border: 1px solid #d7d7d7;
+    padding: 25px;
+    min-height: 230px;
+    margin-top: 40px;
+}
+
+.titleWeb{
+    position: absolute;
+    top: 25px;
+    background-color: white;
+    min-width: 100px;
+    text-align: center;
+
+}
+
+.align-center{
+    text-align: center;
+}
+
+.inputweb{
+    max-width: 200px !important;
+    display: inline-block !important;
+}
+
+.infosweb{
+    padding: 5px 0;
+    display: flex;
+}
+
+.infosweb span{
+    flex: 2;
+}
+
+.btnweb{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.contant-generic-web h4{
+    font-size: 17px;
+    color: #4e4e4e;
+    font-weight: 700;
+}
+
+.fa-envelope{
+    cursor: pointer;
+}
+
+#btnCRMValida{
+    float: right;
+}
+
+.setaD{
+    border-top: 10px solid #767676;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin: 7px 10px 0;
+    float: left;
+}
+
+.setaU{
+    border-bottom: 10px solid #767676;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin: 7px 10px 0;
+    float: left;
+}
+
+#changeAccount{
+    margin-left: 20px;
+    min-width: 420px;
+    background-color: #f3f3f3;
+    border: 1px;
+}
+
+.btnFilter{
+    margin-top: 32px;
+}
+
+.filterdata{
+    float: right;
+    margin: 0px 20px 0px 0;
+}
+
+#filterData{
+    width: 300px;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #FBFBFB !important;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.certNo{
+    background-image: linear-gradient(to right, red , #e96875);
+}
+
+.certYes{
+    background-image: linear-gradient(to right, green , #43f56a);
+}
+
+/*
+* MOBILE 
+* REGRAS DO SITE W3SCHOOLS 
+* https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #form-container h2 {
+        margin: 20px 0;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+}
+
+
+

@@ -1,0 +1,240 @@
+/* body {
+    background-color: #f8f8f8;
+} */
+
+/* Form */
+#form-container {
+    background-color: #FFF;
+    /* border-radius: 20px; */
+    /* border: 1px solid rgb(207, 207, 207); */
+    /* box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2); */
+    /* margin: 25px auto; */
+    /* max-width: 95%; */
+    height: 100%;
+    }
+    /* #form-container img{
+        border-radius: 20px 0px 0px 20px; 
+        max-width: 20%;
+    } */
+    #form-container h2 {
+        margin-top: 40px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    #form-container label {
+        font-size: 15px;
+        font-weight: 700;
+        padding: 0px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    #topico, #descricao, #horario, .padrao-input  {
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px;
+        padding: 5px;
+        color: rgb(163, 163, 163);
+    }
+    #topico p {
+        margin: 0px;
+    }
+    #horario p {
+        margin: 0px;
+    } 
+    #descricao p {
+        margin: 5px;
+    }
+    
+    /* linha em baixo do titulo */
+    
+    .box-geral-direita div.box-texto h2{
+        text-align: right;
+    }
+     
+    .box-geral-esquerda div.box-texto h2, .box-geral-direita div.box-texto h2 {
+         font-size:22px;
+         color:#000000;
+         line-height:60px;
+         position: relative;
+    }
+     
+    /* .box-geral-esquerda div.box-texto h2:before {
+         content: "";
+         position: absolute;
+         border-bottom: 2px solid #1f978d;
+         width: 200px;
+         bottom:0
+    } */
+    
+    #horario {
+        position: relative;
+    }
+    .icone-data {
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    /*********Form************/
+    
+    form .col-5 {
+        margin: auto;
+        padding: 0px;
+    }
+    form input::placeholder {
+        color: rgb(163, 163, 163);
+    }
+    /* #inscreva-se {
+        height: 36px;
+        margin-bottom: 5px;
+    } */
+    /*********End Form************/
+    
+    /* Imagem de background principal */
+    #imagem-fundo {
+        background-image: url('/image/principal.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:15em;
+        height: 100%;
+        position: relative;
+    }
+    .imagem-logo {
+        max-height: 100px;
+        max-width: 80%;
+        height: auto;
+        right: 30px;
+        bottom: 30px;
+        position: absolute;
+    }
+    .height-minimo {
+        min-height: 100%;
+        /* height: auto; */
+    }
+    @media (min-width: 992px) {
+        #imagem-fundo {
+            min-height: 100vh;
+            height: auto;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        #imagem-fundo {
+            min-height: 100vh;
+            height: auto;
+        }
+      }
+    
+    
+    /* Imagem de background principal */
+    
+    
+    .form-group {
+        position: relative;
+    }
+    .icon-input {
+        position: absolute;
+        top: 45px;
+        right: 23px;
+    }
+    .crm-crm {
+        position: relative;
+    }
+    .icon-input-mail {
+        position: absolute;
+        top: 43px;
+        right: 23px;
+    }
+
+    .loginArea{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formLogin{
+        flex: 3;
+        /* margin-top: 10%; */
+    }
+
+    footer{
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .alertFilds{
+        color: red;
+        display: none;
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .b-red{
+        border-color: red;
+    }
+
+    #formulario{
+        width: 70%;
+        margin: auto;
+    }
+
+    #formulario button{
+        width: 100%;
+    }
+
+    #formulario .form-control{
+        height: 45px;
+    }
+
+    .contantInsc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flx-3{
+        flex: 3;
+    }
+
+    .form-control:disabled, .form-control[readonly] {
+        background-color: #FBFBFB !important;
+    }
+
+    #signLoginTitle::after{
+        content: "";
+        color: #1f978d;
+        font-size: 18px;
+        position: absolute;
+        top: 30px;
+        margin-left: -112px;
+    }
+
+    .align-items-end{
+        height: auto;
+    }
+
+    .footerLogin{
+        color:gray; 
+        font-size: 12px;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+        .footerLogin{
+            flex: 1;
+            font-size: 0.6rem;
+            margin-bottom: 20px;
+        }
+
+        #signLoginTitle::after {
+            font-size: 16px;
+            margin-left: -67px;
+        }
+
+        #form-container h2 {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            line-height: 20px;
+        }
+    }
