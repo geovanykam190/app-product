@@ -1,8 +1,8 @@
 ## Sistema de cadastro de Produtos
 
 Esse projeto tem como objetivo, criar um sistema (CRUD) de cadastro de produtos, utilizando Laravel 8.
-*Necessário ter instalado o PHP 7.3 ou superior para rodar toda a aplicação
-*Necessário habilitar algumas extensões no php.ini para realizar a correta instalação da aplicação.
+- *Necessário ter instalado o PHP 7.3 ou superior para rodar toda a aplicação
+- *Necessário habilitar algumas extensões no php.ini para realizar a correta instalação da aplicação.
 
 ## Conteúdos
 - [Instalação](#Instalação)
