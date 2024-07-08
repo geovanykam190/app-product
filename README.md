@@ -8,6 +8,9 @@ Esse projeto tem como objetivo, criar um sistema (CRUD) de cadastro de produtos,
 - [Instalação](#Instalação)
 
 ## Observações:
+Dados do usuario administrador padrão:
+Usuario: adm@product.com
+Senha: admin@123
 A criação de usuario administrador esta na ***UserSeeder.php*** dentro de: database/seeders. Caso queira iniciar o sistema com outro usuario ADMINISTRADOR, por favor realizar as alterações de usuario e senha deste arquivo!
 
 
